@@ -1,0 +1,209 @@
+.header-container {
+  background-color: white;
+  height: 120px;
+  text-align: center;
+  padding-top: 30px;
+  font-weight: bold;
+  display: flex;
+}
+
+.header-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.header-container li {
+  content: "";
+  text-decoration: none;
+  list-style-type: none;
+  margin-bottom: 0px;
+}
+
+.header-container li p,
+a {
+  font-family: OCR A Std, monospace;
+  margin-top: -10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background-image: url("Wallpaper\ Site\ Personal.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-y: auto;
+  margin: 0 auto;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.menu-container {
+  background-color: black;
+  height: 80px;
+}
+
+h2 {
+  font-weight: bold;
+  font-family: Arial Black, sans-serif;
+  font-size: 50px;
+}
+
+.header-container img {
+  display: flex;
+  height: 100px;
+  width: 120px;
+  margin-top: -15px;
+  align-items: center;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list li {
+  margin-right: 30px;
+  color: white;
+}
+
+.nav-list li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.body-terminal {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  padding-top: 50px;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.terminal {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  width: 950px;
+  height: 400px;
+  overflow: auto;
+  flex-direction: column;
+}
+
+.terminal thead {
+  background-color: white;
+  height: 35px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.terminal thead img {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  padding-left: 5px;
+}
+
+.terminal tbody {
+  display: block;
+}
+
+.terminal tbody tr {
+  display: flex;
+  margin-bottom: 0;
+  padding-left: 5px;
+  padding-top: 5px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: pre;
+}
+
+.terminal tbody td {
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin-top: -140px;
+  color: #fff;
+}
+
+.aboutme-container {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  width: 600px;
+  height: 650px;
+  overflow: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+}
+
+.aboutme-container img {
+  width: 180px;
+  height: 185px;
+  margin-top: -400px;
+  margin-bottom: 20px;
+}
+.aboutme-head {
+  position: absolute;
+  text-align: center;
+
+  top: 220px;
+}
+
+.aboutme-body {
+  position: absolute;
+  text-align: center;
+  top: 300px;
+  width: 500px;
+}
+.aboutme-body h4 {
+  font-size: 18px;
+}
+
+footer {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 80px;
+  height: 200px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+}
+
+.logo-container img {
+  margin: 0 10px 20px;
+}
+
+#instagram-logo {
+  width: 35px;
+  height: 30px;
+}
+
+#whatsapp-logo {
+  width: 35px;
+  height: 30px;
+}
+
+#linkedin-logo {
+  width: 35px;
+  height: 30px;
+}
