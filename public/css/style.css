@@ -27,6 +27,40 @@ a {
   color: inherit;
 }
 
+@media (min-width: 576px) and (max-width: 768px) {
+  .header-container {
+    width: 768px;
+    padding: 15px;
+    display: flex;
+  }
+
+  .header-container h2,
+  p {
+    left: 50px;
+    justify-content: left;
+    padding-left: -200px;
+  }
+
+  .header-container ul {
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 10px;
+    margin-left: -160px;
+  }
+
+  .header-container li {
+    margin-bottom: 10px;
+  }
+
+  .menu-container {
+    background-color: black;
+    width: 768px;
+    height: 80px;
+  }
+}
+
 body {
   background-image: url("Wallpaper\ Site\ Personal.jpg");
   background-size: cover;
@@ -135,6 +169,60 @@ h2 {
 
 .terminal tbody td {
   padding: 0;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .body-terminal {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    padding-top: 50px;
+
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .terminal {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    width: 650px;
+    height: 300px;
+    overflow: auto;
+  }
+
+  .terminal thead {
+    background-color: white;
+    height: 35px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .terminal thead img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    padding-left: 5px;
+  }
+
+  .terminal tbody {
+    display: block;
+  }
+
+  .terminal tbody tr {
+    display: flex;
+    margin-bottom: 0;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: pre;
+  }
+
+  .terminal tbody td {
+    padding: 0;
+  }
 }
 
 .container {
