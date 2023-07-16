@@ -7,7 +7,7 @@ export async function runLoop() {
     const textList = [
       "C:\\cpivetta\\system32> Hello, my name is Caio and i'm Full Stack Web Developer Jr.",
       "C:\\cpivetta\\system32> I am passionate about creating software solutions that solve real problems. ",
-      "C:\\cpivetta\\system32> start knowledge.exe",
+      "C:\\cpivetta\\system32> ./cpivetta/knowledge.exe",
       "...",
       "JAVA                    [Spring Boot, Hibernate, Rest-API]",
       "JAVA SCRIPT      [node.js, React.js]",
@@ -28,13 +28,13 @@ export async function runLoop() {
     }
 
     typeText();
-    if (count === 3) {
-      await sleep(3500);
-    } else if (count > 3) {
+
+    if (count > 3) {
       await sleep(500);
     } else {
       await sleep(3000);
     }
+
     // Delay of 5 seconds
   }
 }

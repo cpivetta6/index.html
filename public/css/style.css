@@ -68,13 +68,20 @@ h2 {
 
 .nav-list li {
   margin-right: 30px;
-  color: white;
+  color: rgb(170, 170, 170);
 }
 
 .nav-list li a {
-  color: #fff;
   text-decoration: none;
   font-size: 18px;
+}
+
+.nav-list li a:hover {
+  color: white;
+}
+
+.nav-list li a.active {
+  color: white;
 }
 
 .body-terminal {
