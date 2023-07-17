@@ -206,6 +206,12 @@ h2 {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .body-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .body-terminal {
     display: flex;
     height: 100vh;
