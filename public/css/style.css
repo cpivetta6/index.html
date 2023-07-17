@@ -218,6 +218,7 @@ h2 {
     margin: 0;
     margin-top: -100px;
     align-items: center;
+    margin-left: 55px;
   }
 
   .terminal {
@@ -318,11 +319,12 @@ h2 {
     margin-top: -80px;
     margin-left: 20px;
     color: #fff;
-    width: 600px;
+    width: 700px;
   }
 
   .aboutme-container {
     margin: auto;
+    margin-left: 45px;
   }
 
   .aboutme-container img {
@@ -387,7 +389,7 @@ footer {
     text-align: center;
     padding: 80px;
     height: 200px;
-    width: 700px;
+    width: 768px;
     margin-top: 50px;
   }
 }
