@@ -61,6 +61,40 @@ a {
   }
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  .header-container {
+    width: 768px;
+    padding: 15px;
+    display: flex;
+  }
+
+  .header-container h2,
+  p {
+    left: 50px;
+    justify-content: left;
+    padding-left: -200px;
+  }
+
+  .header-container ul {
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 10px;
+    margin-left: -160px;
+  }
+
+  .header-container li {
+    margin-bottom: 10px;
+  }
+
+  .menu-container {
+    background-color: black;
+    width: 768px;
+    height: 80px;
+  }
+}
+
 body {
   background-image: url("Wallpaper\ Site\ Personal.jpg");
   background-size: cover;
@@ -171,24 +205,23 @@ h2 {
   padding: 0;
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .body-terminal {
     display: flex;
     height: 100vh;
     margin: 0;
-    padding-top: 50px;
-
-    flex-direction: column;
+    margin-top: -100px;
     align-items: center;
   }
 
   .terminal {
     background-color: #000;
     color: #fff;
-    padding: 10px;
+
     width: 650px;
     height: 300px;
     overflow: auto;
+    margin: auto;
   }
 
   .terminal thead {
@@ -230,7 +263,7 @@ h2 {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  margin-top: -140px;
+  margin-top: 20px;
   color: #fff;
 }
 
@@ -270,6 +303,44 @@ h2 {
   font-size: 18px;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: -80px;
+    margin-left: 20px;
+    color: #fff;
+    width: 600px;
+  }
+
+  .aboutme-container {
+    margin: auto;
+  }
+
+  .aboutme-container img {
+    width: 180px;
+    height: 185px;
+  }
+  .aboutme-head {
+    position: absolute;
+    text-align: center;
+
+    top: 220px;
+  }
+
+  .aboutme-body {
+    position: absolute;
+    text-align: center;
+    top: 300px;
+    width: 500px;
+  }
+  .aboutme-body h4 {
+    font-size: 18px;
+  }
+}
+
 footer {
   background-color: #000;
   color: white;
@@ -301,4 +372,16 @@ footer {
 #linkedin-logo {
   width: 35px;
   height: 30px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 80px;
+    height: 200px;
+    width: 700px;
+    margin-top: 50px;
+  }
 }
