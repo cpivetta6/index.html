@@ -370,26 +370,45 @@ footer {
 #instagram-logo {
   width: 35px;
   height: 30px;
+  filter: invert(100%) sepia(6%) saturate(22%) hue-rotate(133deg)
+    brightness(105%) contrast(108%);
 }
 
 #whatsapp-logo {
   width: 35px;
   height: 30px;
+  filter: invert(100%) sepia(6%) saturate(22%) hue-rotate(133deg)
+    brightness(105%) contrast(108%);
 }
 
 #linkedin-logo {
   width: 35px;
   height: 30px;
+  filter: invert(100%) sepia(6%) saturate(22%) hue-rotate(133deg)
+    brightness(105%) contrast(108%);
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
-  footer {
-    background-color: #000;
-    color: white;
-    text-align: center;
-    padding: 80px;
-    height: 200px;
-    width: 768px;
-    margin-top: 50px;
-  }
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.image-gallery > li {
+  flex-basis: 350px; /* width: 350px; */
+}
+
+.image-gallery li iframe {
+  object-fit: cover;
+
+  height: auto;
+  vertical-align: middle;
+  border-radius: 5px;
+  width: 410px;
+  height: 280px;
+}
+
+.image-gallery span {
+  background-color: black;
 }

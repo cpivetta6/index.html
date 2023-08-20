@@ -12,7 +12,7 @@ export async function runLoop() {
       "JAVA                    [Spring Boot, Hibernate, Rest-API]",
       "JAVA SCRIPT      [node.js, React.js]",
       "HTML/CSS          [html5][css3]",
-      "SQL                     [Queries, modifiers and calculations]",
+      "SQL                     [Queries, modifiers and calculations|SQL server, MYSQL, POSTGRESQL]",
     ];
 
     const typingTextElement = document.getElementById("typing-text" + count);
