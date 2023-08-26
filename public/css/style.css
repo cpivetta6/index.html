@@ -395,13 +395,12 @@ footer {
   gap: 10px;
 }
 
-.image-gallery > li {
+.image-gallery li {
   flex-basis: 350px; /* width: 350px; */
 }
 
 .image-gallery li iframe {
   object-fit: cover;
-
   height: auto;
   vertical-align: middle;
   border-radius: 5px;
@@ -409,6 +408,14 @@ footer {
   height: 280px;
 }
 
-.image-gallery span {
-  background-color: black;
+.overlay {
+  background-color: #000;
+  top: 20px;
+  height: 60px;
+  align-items: center;
+  text-align: center;
+}
+
+.overlay .overlay:hover {
+  color: white;
 }
