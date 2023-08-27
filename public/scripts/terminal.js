@@ -13,7 +13,7 @@ export async function runLoop() {
       "JAVA SCRIPT      [node.js, React.js]",
       "HTML/CSS          [html5][css3]",
       "SQL                     [Queries, modifiers and calculations|SQL server, MYSQL, POSTGRESQL]",
-      "DOCKER       [Images and Containerization, Docker Engine]",
+      "DOCKER             [Images and Containerization, Docker Engine]",
     ];
 
     const typingTextElement = document.getElementById("typing-text" + count);

@@ -33,7 +33,9 @@ function sendEmail() {
           document.getElementById("message").value = "";
         } else {
           alert("invalid email format");
-          window.location.href = "http://127.0.0.1:5500/contact.html";
+
+          window.location.href =
+            "https://cpivetta6.github.io/index.html/contact.html";
         }
       }
     });
