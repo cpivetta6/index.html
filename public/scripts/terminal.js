@@ -3,7 +3,7 @@ function sleep(delay) {
 }
 
 export async function runLoop() {
-  for (let count = 1; count < 9; count++) {
+  for (let count = 1; count < 10; count++) {
     const textList = [
       "C:\\cpivetta\\system32> Hello, my name is Caio and i'm Full Stack Web Developer Jr.",
       "C:\\cpivetta\\system32> I am passionate about creating software solutions that solve real problems. ",
@@ -13,6 +13,7 @@ export async function runLoop() {
       "JAVA SCRIPT      [node.js, React.js]",
       "HTML/CSS          [html5][css3]",
       "SQL                     [Queries, modifiers and calculations|SQL server, MYSQL, POSTGRESQL]",
+      "DOCKER       [Images and Containerization, Docker Engine]",
     ];
 
     const typingTextElement = document.getElementById("typing-text" + count);
