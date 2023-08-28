@@ -5,7 +5,7 @@ function sendEmail() {
     message: document.getElementById("message").value,
   };
 
-  document
+  var clearButton = document
     .getElementById("clearButton")
     .addEventListener("click", function (e) {
       e.preventDefault();
