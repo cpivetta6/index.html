@@ -74,37 +74,35 @@
             <tr>
               <td>
                 <div class="contact-form">
-                  <form method="post">
-                    <div class="form-row">
-                      <label for="fullname">Name:</label>
-                      <input
-                        type="text"
-                        id="fullname"
-                        placeholder="Full Name"
-                        required
-                      />
-                    </div>
-                    <div class="form-row">
-                      <label for="email_id">Email:</label>
-                      <input
-                        type="email"
-                        id="email_id"
-                        placeholder="Email"
-                        required
-                      />
-                    </div>
+                  <div class="form-row">
+                    <label for="fullname">Name:</label>
+                    <input
+                      type="text"
+                      id="fullname"
+                      placeholder="Full Name"
+                      required
+                    />
+                  </div>
+                  <div class="form-row">
+                    <label for="email_id">Email:</label>
+                    <input
+                      type="email"
+                      id="email_id"
+                      placeholder="Email"
+                      required
+                    />
+                  </div>
 
-                    <div class="form-row">
-                      <label for="message">Message:</label>
-                      <textarea
-                        id="message"
-                        placeholder="message"
-                        required
-                      ></textarea>
-                    </div>
+                  <div class="form-row">
+                    <label for="message">Message:</label>
+                    <textarea
+                      id="message"
+                      placeholder="message"
+                      required
+                    ></textarea>
+                  </div>
 
-                    <button onclick="sendEmail()" id="clearButton">SEND</button>
-                  </form>
+                  <button onclick="sendEmail()">SEND</button>
                 </div>
               </td>
             </tr>
