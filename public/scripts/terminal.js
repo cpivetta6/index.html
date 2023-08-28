@@ -10,7 +10,7 @@ export async function runLoop() {
       "C:\\cpivetta\\system32> ./cpivetta/knowledge.exe",
       "...",
       "JAVA                    [Spring Boot, Hibernate, Rest-API]",
-      "JAVA SCRIPT      [node.js, React.js]",
+      "JAVA SCRIPT      [node.js (express, API, JWT, SSR), React.js]",
       "HTML/CSS          [html5][css3]",
       "SQL                     [Queries, modifiers and calculations| SQL Server, MYSQL, POSTGRESQL]",
       "DOCKER             [Images and Containerization, Docker Engine]",
