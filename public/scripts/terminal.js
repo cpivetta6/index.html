@@ -12,7 +12,7 @@ export async function runLoop() {
       "JAVA                    [Spring Boot, Hibernate, Rest-API]",
       "JAVA SCRIPT      [node.js, React.js]",
       "HTML/CSS          [html5][css3]",
-      "SQL                     [Queries, modifiers and calculations|SQL server, MYSQL, POSTGRESQL]",
+      "SQL                     [Queries, modifiers and calculations| SQL Server, MYSQL, POSTGRESQL]",
       "DOCKER             [Images and Containerization, Docker Engine]",
     ];
 
