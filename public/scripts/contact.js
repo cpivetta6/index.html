@@ -20,7 +20,7 @@ function sendEmail() {
 
       console.log(valid);
 
-      if (emailValue != "") {
+      if (emailValue !== "") {
         if (valid === true) {
           emailjs
             .send("service_a1k7qtd", "template_1uyimi5", params)
