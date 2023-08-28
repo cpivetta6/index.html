@@ -18,6 +18,7 @@ function sendEmail() {
 
         if (valid) {
           // Email is valid, perform the email sending actions
+          console.log(params);
           emailjs
             .send("service_a1k7qtd", "template_1uyimi5", params)
             .then(function (res) {
