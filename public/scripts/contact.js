@@ -9,13 +9,9 @@ function sendEmail() {
   var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   var valid = false;
 
-  console.log(params);
-  console.log(emailValue);
-
   if (emailValue !== "") {
     if (emailPattern.test(emailValue)) {
       valid = true;
-      console.log(valid);
 
       params.email_id = emailValue;
 
