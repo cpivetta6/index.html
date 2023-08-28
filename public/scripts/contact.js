@@ -34,8 +34,7 @@ function sendEmail() {
         } else {
           alert("invalid email format");
 
-          window.location.href =
-            "https://cpivetta6.github.io/index.html/contact.html";
+          window.location.href = "https://cpivetta.onrender.com/contact.html";
         }
       }
     });
