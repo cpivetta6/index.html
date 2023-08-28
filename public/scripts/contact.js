@@ -12,29 +12,24 @@ function sendEmail() {
       var emailValue = document.getElementById("email_id").value;
       var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-      var valid = false;
-
-      if (emailPattern.test(emailValue)) {
-        valid = true;
-      }
-
-      console.log(valid);
-
       if (emailValue !== "") {
-        if (valid === true) {
+        var valid = emailPattern.test(emailValue);
+        console.log(valid);
+
+        if (valid) {
+          // Email is valid, perform the email sending actions
           emailjs
             .send("service_a1k7qtd", "template_1uyimi5", params)
             .then(function (res) {
-              alert("Message Sent: " + res.status); // Corrected the alert statement
+              alert("Message Sent: " + res.status);
             });
 
           document.getElementById("fullname").value = "";
           document.getElementById("email_id").value = "";
           document.getElementById("message").value = "";
         } else {
-          alert("invalid email format");
-
-          window.location.href = "https://cpivetta.onrender.com/contact.html";
+          // Email is invalid
+          alert("Invalid email format");
         }
       }
     });
