@@ -25,7 +25,7 @@ function sendEmail() {
           emailjs
             .send("service_a1k7qtd", "template_1uyimi5", params)
             .then(function (res) {
-              window.location.href = "https://cpivetta.onrender.com/index.html";
+              alert("Message Sent: " + res.status); // Corrected the alert statement
             });
 
           document.getElementById("fullname").value = "";
