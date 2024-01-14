@@ -14,9 +14,12 @@ function sendEmail() {
       valid = true;
 
       params.email_id = emailValue;
+      emailjs.init("Lm43tAialxB_EN1vl");
 
       emailjs
-        .send("service_a1k7qtd", "template_1uyimi5", params)
+        //new: service_33lyqlc, template_iexb93q
+        //old: service_a1k7qtd, template_1uyimi5
+        .send("service_33lyqlc", "template_iexb93q", params)
         .then(function (res) {
           alert("Message Sent: " + res.status);
         });

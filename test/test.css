@@ -1,0 +1,18 @@
+/* styles.css */
+#window {
+  width: 500px;
+  height: t00px;
+  background-color: yellow;
+  border: 1px solid #ccc;
+  padding: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none; /* Start as hidden */
+}
+
+#window.active {
+  display: flex;
+  background-color: blue; /* Background color when window is open */
+}
